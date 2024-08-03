@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap);
+/* base rules */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* fonts */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* general margin/padding */
+.easy-bg,
+.pink-bg {
+  padding: 3rem 2.2rem;
+}
+
+/* colors*/
+.jumbo-container {
+  color: red;
+  background-color: green;
+}
+
+.pink-bg {
+  background-color: #f19985;
+}
+
+.pink-title {
+  color: #f19985;
+}
+
+/* divImg */
+.strong-ilaria {
+  position: absolute;
+  right: 33px;
+  bottom: -30px;
+  width: 195px;
+}
+
+.ilaria-posing {
+  position: absolute;
+  right: 0px;
+  bottom: -60px;
+  height: 200px;
+  transform: scaleX(-1);
+}
+
+/* pink-quote */
+.pink-quote::before {
+  content: url(/images/quote-left-solid.svg?2042a42ffb31712f1bfa99cf1eddae5a);
+  display: block;
+  max-width: 20px;
+  height: 30px;
+  margin-bottom: -20px;
+  margin-left: 0.5em;
+}
+
+.pink-quote::after {
+  content: url(/images/quote-right-solid.svg?e294c8f5e55e12a5e6dc6105ee08c56a);
+  display: block;
+  max-width: 20px;
+  height: 30px;
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: 0.5em;
+}
+
+#pink-shadow {
+  box-shadow: 0px 19px 32px 10px #f19985;
+}
+
+.pink-bg-cta {
+  background-image: u;
+}
